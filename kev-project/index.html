@@ -1,0 +1,172 @@
+<!-- Make sure to view this on Mozilla Firefox -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fly DXC</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Google Font CDN -->
+     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900&display=swap" rel="stylesheet">
+
+    <!-- Personal Local CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div>
+      <!-- Navigation Bar -->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+          <img src="photos/flydxclogo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link black-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item black-link">
+              <a class="nav-link" href="#">Employee Details</a>
+            </li>
+            <li class="nav-item black-link">
+              <a class="nav-link" href="#">Booking Details</a>
+            </li>
+            <li class="nav-item black-link">
+              <a class="nav-link" href="#">Baggage Details</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- 1st div - section 1 -->
+    <div id="intro">
+      <div class="header">
+        <h1>Welcome to FLY DXC</h1>
+        <h5>DXC's Internal Website for DXC related Business Flights.</h5>
+      </div>
+      <div class="sub-header">
+          <h3>Your One Stop DXC Booking App</h3>
+          <h5>Fast. Smart. Secure.</h5>
+          <button type="button" class="btn btn-dark">Learn More</button>
+        </div>
+    </div>
+
+    <!-- 2nd div - section 2 -->
+    <div id="section2">
+      <div class="center1">
+        <h1>
+          <span class="">Booking Details</span>
+        </h1>
+      </div>
+
+      <div class="container">
+        <form>
+          <div class="form-group">
+            <label for="email">Employee Id <span class="require">*</span></label>
+            <input type="text" class="form-control form-control-lg" id="enter-employee-id" aria-describedby="emailHelp" placeholder="Employee ID (E.g. 123456)">
+          </div>
+          <div class="form-group">
+            <label for="airlines">Airlines</label>
+            <input type="text" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Select Airlines">
+          </div>
+          <div class="form-group">
+            <label for="bookingReferenceNumber">Booking Reference Number <span class="require">*</span></label>
+            <input type="text" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Booking Reference Number (E.g. AWERW53453DFGD)">
+          </div>
+          <br>
+          <div class="d-flex justify-content-center">
+            <a href="bookdetails.html">
+              <button type="button" class="btn btn-warning btn-lg"><i class="fas fa-plane"></i> Check Flight</button>
+            </a>
+          </div>
+        </form>
+      </div>
+
+    </div>
+
+    <!-- section 4 - Features -->
+    <div id="section4">
+        <div class="center2">
+            <h1>
+              <span class="">Features</span>
+            </h1>
+          </div>
+      <div class="row">
+          <div class="col-sm">
+              <span class="bigger text-center">
+                  <i class="fas fa-passport"></i>
+                  <h3>Secured Flight Transaction</h3>
+                  <button type="button" class="btn btn-warning">Learn More</button>
+                
+              </span>
+            </div>
+            <div class="col-sm">
+              <span class="bigger text-center">
+                  <i class="fas fa-luggage-cart"></i>
+                  <h3>Baggage Status Checker</h3>
+                  <button type="button" class="btn btn-warning">Learn More</button>
+              </span>
+            </div>
+            <div class="col-sm">
+              <span class="bigger text-center">
+                  <i class="fas fa-map-marked-alt"></i>
+                  <h3>Smart Location Tracking</h3>
+                  <button type="button" class="btn btn-warning">Learn More</button>
+              </span>
+            </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blue pt-4">
+      <div class="container-fluid text-center text-md-left">
+        <div class="row">
+          <div class="col-md-6 mt-md-0 mt-3 extraspace">
+            <!-- Content -->
+            <h3 class="text-uppercase"><strong>Fly DXC</strong></h3>
+            <p>A one stop for all  DXC employees flight booking.</p>
+          </div>
+          <hr class="clearfix w-100 d-md-none pb-3">
+          <div class="col-md-3 mb-md-0 mb-3">
+            <h5 class="text-uppercase"><strong>Links</strong></h5>
+            <ul class="list-unstyled">
+              <li><a href="#!">Home</a></li>
+              <li><a href="#!">Baggage Status</a></li>
+              <li><a href="#!">Site Map</a></li>
+              <li><a href="FAQ.html">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 mb-md-0 mb-3">
+            <h5 class="text-uppercase"><strong>Social Media</strong></h5>
+            <ul class="list-unstyled">
+              <li><a href="#!"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+              <li><a href="#!"><i class="fab fa-instagram"></i> Instagram</a></li>
+              <li><a href="#!"><i class="fab fa-twitter-square"></i> Twitter</a></li>
+              <li><a href="#!"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Footer  -->
+      <div class="footer-copyright text-center py-3">© 2019 Copyright:
+        <a class="footlink" href="https://www.dxc.technology/" target="_blank"> DXC.technology</a>
+      </div>
+    </footer>
+ 
+    <!-- For Bootstrap JS Required Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/cef6f4ff92.js"></script>
+
+    <!-- Personal Local JS Scripts -->
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

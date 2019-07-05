@@ -1,0 +1,146 @@
+/* for testing
+body {
+  background-color: black;
+}
+*/
+
+/* For Landing Page */
+body {
+  margin-bottom: 0;
+  font-family: "Roboto";
+  color: black;
+}
+
+/* landing */
+#intro {
+  height: 650px;
+  width: 100%;
+  background-color: #F3F45E;
+  color: black;
+}
+
+.header {
+  padding: 190px 250px;
+}
+
+.sub-header {
+  padding: 10px 240px;
+  text-align: right;
+}
+
+.center1{
+  padding-left: 42%;
+  padding-top: 50px;
+}
+
+.center2 {
+  padding-left: 45%;
+  padding-top: 50px;
+}
+
+#section2 {
+  height: 500px;
+  width: 100%;
+  background-color: #252f37;
+  color: white;
+}
+
+#section3 {
+  height: 270px;
+  width: 100%;
+  background-color: #F3F45E;
+}
+
+.bg-dark {
+  background-color: white !important;
+}
+
+.black-link {
+  color: black;
+}
+
+nav .nav-link:hover {
+  color: black !important;
+}
+
+#section4 {
+  height: 480px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  list-style-type: none;
+}
+
+.nobull {
+  list-style-type: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: black;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.require {
+  color: red;
+}
+
+.extraspace {
+  padding-left: 80px;
+}
+
+.bigger {
+  font-size: 7em;
+}
+
+.col-sm {
+  text-align: center;
+}
+
+#bookingDetails {
+  height: 780px;
+  width: 100%;
+  background-color: #252f37;
+  color: black;
+}
+
+.white-text {
+  color:white;
+}
+
+.header-details {
+  padding: 120px 0;
+}
+
+/* @media (min-width: 576px) */
+.jumbotron {
+    /* padding: 4em 2em !important; */
+    margin: 2em 2em;
+    padding: 2em 2em;
+}
+
+.result {
+  padding: 200px 0 70px 0;
+}
+
+#faq {
+  height: 780px;
+  width: 100%;
+  background-color: #252f37;
+  color: black;
+}
+
+/* change the color in the accordion */

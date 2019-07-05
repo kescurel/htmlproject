@@ -1,0 +1,176 @@
+<!-- Make sure to view this on Mozilla Firefox -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fly DXC</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Google Font CDN -->
+     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900&display=swap" rel="stylesheet">
+
+    <!-- Personal Local CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div>
+      <!-- Navigation Bar -->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+          <img src="photos/flydxclogo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link black-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item black-link">
+              <a class="nav-link" href="#">Employee Details</a>
+            </li>
+            <li class="nav-item black-link">
+              <a class="nav-link" href="#">Booking Details</a>
+            </li>
+            <li class="nav-item black-link">
+              <a class="nav-link" href="#">Baggage Details</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- booking details -->
+    <div id="faq">
+        <div class="result">
+            <div class="container">
+                <h1 class="display-5 text-center white-text">Frequently Asked Question</h1>
+            </div>
+            <div class="container py-3">
+                    <div class="row">
+                        <div class="col-10 mx-auto">
+                            <div class="accordion" id="faqExample">
+                                <div class="card">
+                                    <div class="card-header p-2" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                              Q: When can I check in online?
+                                            </button>
+                                          </h5>
+                                    </div>
+                
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqExample">
+                                        <div class="card-body">
+                                            Online check-in is available from:
+                                            24 hours to 1 hour and 15 minutes prior to your international flight's departure time
+                                            24 hours to 1 hour to your domestic flight's departure time.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header p-2" id="headingTwo">
+                                        <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                          Q: Will I get my reserved seat?
+                                        </button>
+                                      </h5>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqExample">
+                                        <div class="card-body">
+                                            Yes. Your specific seat reservation/request will be pre-selected when you check in for your flight online.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header p-2" id="headingThree">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                              Q. Can I check in my return/connecting flight online?
+                                            </button>
+                                          </h5>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqExample">
+                                        <div class="card-body">
+                                            Yes. You may check in your return or connecting flight as long as both flights are found in one booking reference/ticket and the return/connection time is within 24 hours.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header p-2" id="headingThree">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                              Q. What do I need to present at the airport?
+                                            </button>
+                                          </h5>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqExample">
+                                        <div class="card-body">
+                                            Present your online check-in boarding pass and valid travel documents or ID at the airport Online Check-in Bag Drop Counter. 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                
+                        </div>
+                    </div>
+                    <!--/row-->
+                </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blue pt-4">
+      <div class="container-fluid text-center text-md-left">
+        <div class="row">
+          <div class="col-md-6 mt-md-0 mt-3 extraspace">
+            <!-- Content -->
+            <h3 class="text-uppercase"><strong>Fly DXC</strong></h3>
+            <p>A one stop for all  DXC employees flight booking.</p>
+          </div>
+          <hr class="clearfix w-100 d-md-none pb-3">
+          <div class="col-md-3 mb-md-0 mb-3">
+            <h5 class="text-uppercase"><strong>Links</strong></h5>
+            <ul class="list-unstyled">
+              <li><a href="#!">Home</a></li>
+              <li><a href="#!">Baggage Status</a></li>
+              <li><a href="#!">Site Map</a></li>
+              <li><a href="#!">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 mb-md-0 mb-3">
+            <h5 class="text-uppercase"><strong>Social Media</strong></h5>
+            <ul class="list-unstyled">
+              <li><a href="#!"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+              <li><a href="#!"><i class="fab fa-instagram"></i> Instagram</a></li>
+              <li><a href="#!"><i class="fab fa-twitter-square"></i> Twitter</a></li>
+              <li><a href="#!"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Footer  -->
+      <div class="footer-copyright text-center py-3">© 2019 Copyright:
+        <a class="footlink" href="https://www.dxc.technology/" target="_blank"> DXC.technology</a>
+      </div>
+    </footer>
+
+    
+ 
+    <!-- For Bootstrap JS Required Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/cef6f4ff92.js"></script>
+
+    <!-- Sweet Alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!-- Personal Local JS Scripts -->
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
